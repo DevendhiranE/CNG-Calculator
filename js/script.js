@@ -10,6 +10,6 @@ calculateBtn.addEventListener("click", (e) => {
     let result =
       (tripDistanceEl.value / fuelEfficiencyEl.value) * fuelCostEl.value;
 
-    alert("Your Trip Distance is : Rs. " + result);
+    alert("Your Fuel Cost will be around : Rs. " + result);
   }
 });
